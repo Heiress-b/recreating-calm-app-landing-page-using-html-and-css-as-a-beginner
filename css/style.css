@@ -1,0 +1,98 @@
+body {
+    margin: 0 auto;
+}
+
+* {
+    list-style-type: none;
+}
+
+
+header {
+    background-image:url("/img/calm-bg-transformed.png") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+    padding: 50px 0px;
+    min-height: 100vh;
+}
+
+#calm h5 {
+    color: white;
+    padding: 20px 0px;
+    font-weight: lighter;
+}
+
+#calm h2 {
+    color: white;
+    line-height: 3rem;
+    padding-bottom: 20px;
+    font-weight: bold;
+    margin-left: 0;
+}
+
+#calm h6 {
+    color: white;
+    padding-bottom: 50px;
+    line-height: 1.5rem ;
+}
+
+#features {
+    display: flex;
+}
+
+#calm button {
+    padding: 10px;
+    
+}
+
+#section-1 {
+    display: flex;
+}
+
+#Sienna {
+    background-color: #F3F4FF;
+    padding: 50px;
+}
+@media (max-width:767px) {
+    header {
+        background-image:url("/img/mobile.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-bottom: 50px;
+        padding: 50px 0px;
+        min-height: 100vh;
+    }
+}
+
+#icons ul li i {
+    padding: 10px;
+    border-radius: 50%;
+    background: linear-gradient(to right,#BE85E6,#DC96DD);
+    color: white;
+    margin-right: 10px;
+}
+
+#icons ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+#icons ul li p {
+    margin-right: 100px;
+}
+
+footer {
+    background-color: #717171;
+    padding: 30px;
+    color: white;
+}
+
+footer ul li {
+    font-weight: lighter;
+    font-size: smaller;   
+}
+
+footer ul h6 {
+    margin-bottom: 20px;
+}
+
